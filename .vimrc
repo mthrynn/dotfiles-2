@@ -29,17 +29,17 @@ set undodir=~/.vim/undo
 set autoindent " Copy indent from last line when starting new line
 set backspace=indent,eol,start
 set cursorline " Highlight current line
-set diffopt=filler " Add vertical spaces to keep right and left aligned
-set diffopt+=iwhite " Ignore whitespace changes (focus on code changes)
+" set diffopt=filler " Add vertical spaces to keep right and left aligned
+" set diffopt+=iwhite " Ignore whitespace changes (focus on code changes)
 set encoding=utf-8 nobomb " BOM often causes trouble
 set esckeys " Allow cursor keys in insert mode
 set expandtab " Expand tabs to spaces
-set foldcolumn=0 " Column to show folds
-set foldenable " Enable folding
-set foldlevel=0 " Close all folds by default
-set foldmethod=syntax " Syntax are used to specify folds
-set foldminlines=0 " Allow folding single lines
-set foldnestmax=5 " Set max fold nesting level
+" set foldcolumn=0 " Column to show folds
+" set foldenable " Enable folding
+" set foldlevel=0 " Close all folds by default
+" set foldmethod=syntax " Syntax are used to specify folds
+" set foldminlines=0 " Allow folding single lines
+" set foldnestmax=5 " Set max fold nesting level
 set formatoptions=
 set formatoptions+=c " Format comments
 set formatoptions+=r " Continue comments by default
@@ -66,9 +66,9 @@ set mouse=a " Enable mouse in all in all modes
 set noerrorbells " Disable error bells
 set nojoinspaces " Only insert single space after a '.', '?' and '!' with a join command
 set noshowmode " Don't show the current mode (airline.vim takes care of us)
-set nostartofline " Don't reset cursor to start of line when moving around
+set " nostartofline " Don't reset cursor to start of line when moving around
 set nowrap " Do not wrap lines
-set nu " Enable line numbers
+set " nu " Enable line numbers
 set ofu=syntaxcomplete#Complete " Set omni-completion method
 set regexpengine=1 " Use the old regular expression engine (it's faster for certain language syntaxes)
 set report=0 " Show all changes
